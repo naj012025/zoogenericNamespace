@@ -37,7 +37,7 @@ public class ZooManager
         Console.WriteLine("=== Exhibit Ready ===\n");
     }
 
-    Public Static void FeedAndTrain<T>(IAnimalPopper<T> source, IPushable<Animal> destination) where T : Animal
+    public static void FeedAndTrain<T>(IAnimalPopper<T> source, IPushable<Animal> destination) where T : Animal
     {
         Console.WriteLine("\n=== Feeding and Training Session ===");
 
